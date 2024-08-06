@@ -15,6 +15,6 @@ function odliczanie()
 		if(sekunda<10) sekunda ="0"+sekunda;
 		
 		document.getElementById("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok+"|"+godzina+":"+minuta+":"+sekunda;
-		
+		ss
 		setTimeout("odliczanie()",1000);
 		}
